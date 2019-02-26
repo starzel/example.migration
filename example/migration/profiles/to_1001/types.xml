@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<object name="portal_types" meta_type="Plone Types Tool">
+
+    <object name="PlonePopoll" remove="True" />
+
+    <object name="ECLecture" remove="True" />
+
+    <object name="FieldsetFolder" remove="True" />
+    <object name="FormBooleanField" remove="True" />
+    <object name="FormCaptchaField" remove="True" />
+    <object name="FormCustomScriptAdapter" remove="True" />
+    <object name="FormDateField" remove="True" />
+    <object name="FormFileField" remove="True" />
+    <object name="FormFixedPointField" remove="True" />
+    <object name="FormFolder" remove="True" />
+    <object name="FormIntegerField" remove="True" />
+    <object name="FormLabelField" remove="True" />
+    <object name="FormLikertField" remove="True" />
+    <object name="FormLinesField" remove="True" />
+    <object name="FormMailerAdapter" remove="True" />
+    <object name="FormMultiSelectionField" remove="True" />
+    <object name="FormPasswordField" remove="True" />
+    <object name="FormRichLabelField" remove="True" />
+    <object name="FormRichTextField" remove="True" />
+    <object name="FormSaveDataAdapter" remove="True" />
+    <object name="FormSelectionField" remove="True" />
+    <object name="FormStringField" remove="True" />
+    <object name="FormTextField" remove="True" />
+    <object name="FormThanksPage" remove="True" />
+    <object name="FieldsetStart" remove="True" />
+    <object name="FieldsetEnd" remove="True" />
+
+    <object name="Person Folder" remove="True" />
+    <object name="Person" remove="True" />
+
+</object>

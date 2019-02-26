@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<componentregistry>
+  <utilities>
+
+    <utility remove="True"
+        interface="collective.easyslideshow.descriptors.SlideshowDescriptor"
+        name="collective.easyslideshow.slideshow"/>
+
+  </utilities>
+</componentregistry>

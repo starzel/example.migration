@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<object name="portal_skins" meta_type="Plone Skins Tool">
+
+  <object name="imagetags_newsitem" meta_type="Filesystem Directory View"
+          directory="collective.imagetags:skins/imagetags_newsitem"
+          remove="True"/>
+  <object name="imagetags_image" meta_type="Filesystem Directory View"
+          directory="collective.imagetags:skins/imagetags_image"
+          remove="True"/>
+  <object name="imagetags_fullscreen" meta_type="Filesystem Directory View"
+          directory="collective.imagetags:skins/imagetags_fullscreen"
+          remove="True"/>
+  <object name="plonepopoll" meta_type="Filesystem Directory View"
+          directory="Products.PlonePopoll:skins/PlonePopoll"
+          remove="True"/>
+
+  <object name="eclecture_templates" meta_type="Filesystem Directory View"
+          directory="ECLecture/skins/eclecture_templates"
+          remove="True"/>
+  <object name="eclecture_styles" meta_type="Filesystem Directory View"
+          directory="ECLecture/skins/eclecture_styles"
+          remove="True"/>
+  <object name="eclecture_images" meta_type="Filesystem Directory View"
+          directory="ECLecture/skins/eclecture_images"
+          remove="True"/>
+
+  <skin-path name="*">
+    <layer remove="True" name="plonepopoll" />
+    <layer remove="True" name="eclecture_templates" />
+    <layer remove="True" name="eclecture_styles" />
+    <layer remove="True" name="eclecture_images" />
+    <layer remove="True" name="ContextualContentMenu" />
+    <layer remove="True" name="PloneFormGen" />
+    <layer remove="True" name="example_theme_custom_templates" />
+    <layer remove="True" name="LinguaPlone" />
+    <layer remove="True" name="collective_prettyphoto" />
+    <layer remove="True" name="DataGridWidget" />
+    <layer remove="True" name="imagetags_image" />
+  </skin-path>
+
+</object>

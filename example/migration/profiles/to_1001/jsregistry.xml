@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts" meta_type="JavaScripts Registry">
+
+  <javascript id="++resource++collective.imagetags/view-tags.js" remove="True" />
+  <javascript remove="True" id="++resource++ckeditor_for_plone/ckeditor_plone.js" />
+  <javascript remove="True" id="++resource++ckeditor/ckeditor.js" />
+  <javascript remove="True" id="ckeditor_vars.js" />
+  <javascript remove="True" id="kss-bbb.js" />
+  <javascript remove="True" id="++resource++imageeditor/editlink.js" />
+  <javascript remove="True" id="prettyPhoto.js" />
+  <javascript remove="True" id="++resource++jquery.prettyPhoto.js" />
+  <javascript remove="True" id="++resource++collective.js.fullcalendar/fullcalendar.gcal.js" />
+  <javascript remove="True" id="++resource++collective.js.fullcalendar/fullcalendar.min.js" />
+  <javascript remove="True" id="solgema_contextualcontentmenu.js" />
+  <javascript remove="True" id="faceted_edit.js" />
+  <javascript remove="True" id="faceted_view.js" />
+  <javascript remove="True" id="++resource++clickmap_javascripts/clickmap.js" />
+  <javascript remove="True" id="++resource++plonefinder_static/imagewidget.js" />
+  <javascript remove="True" id="++resource++plonefinder_static/init_imagewidget.js" />
+
+</object>
+

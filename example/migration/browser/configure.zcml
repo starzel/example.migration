@@ -1,0 +1,27 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="example.migration">
+
+  <browser:page
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      name="export_local_roles"
+      class=".views.ExportLocalRoles"
+      permission="cmf.ManagePortal"
+      />
+
+  <browser:page
+      name="rebuild_catalog_patched"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".views.RebuildCatalogPatched"
+      permission="cmf.ManagePortal"
+      />
+
+  <browser:page
+      name="export_content_stats"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".views.ExportContentStats"
+      permission="cmf.ManagePortal"
+      />
+
+</configure>

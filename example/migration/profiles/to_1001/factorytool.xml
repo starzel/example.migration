@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<object name="portal_factory" meta_type="Plone Factory Tool">
+ <factorytypes>
+
+  <type portal_type="PlonePopoll" remove="True" />
+  <type portal_type="ECLecture" remove="True" />
+
+ </factorytypes>
+</object>

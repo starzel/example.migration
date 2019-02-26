@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<portlets>
+ <assignment name="events" category="context" key="/"
+    manager="plone.rightcolumn" type="portlets.Events" visible="False">
+ </assignment>
+ <assignment name="news" category="context" key="/"
+    manager="plone.rightcolumn" type="portlets.News" visible="False">
+ </assignment>
+
+ <assignment name="footer" category="context" key="/"
+    manager="plone.footerportlets" type="portlets.Classic" visible="False">
+ </assignment>
+ <assignment name="colophon" category="context" key="/"
+    manager="plone.footerportlets" type="portlets.Classic" visible="False">
+ </assignment>
+</portlets>

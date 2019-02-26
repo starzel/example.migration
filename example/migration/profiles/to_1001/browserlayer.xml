@@ -1,0 +1,10 @@
+<layers>
+
+ <layer name="collective.imagetags"
+   interface="collective.imagetags.interfaces.IImageTagsLayer"
+   remove="True"
+   />
+
+</layers>
+
+

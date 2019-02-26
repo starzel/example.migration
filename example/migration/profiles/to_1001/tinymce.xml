@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<object>
+ <layout purge="False">
+  <styles purge="False">
+   <element value="Show tags|img|imagetags-show" remove="True"/>
+  </styles>
+ </layout>
+</object>

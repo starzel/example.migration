@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<object name="portal_actions" meta_type="Plone Actions Tool"
+  xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+   <object name="portal_tabs" meta_type="CMF Action Category">
+    <object name="index_html" meta_type="CMF Action" i18n:domain="plone">
+     <property name="visible">False</property>
+    </object>
+   </object>
+
+  <object name="object" meta_type="CMF Action Category">
+    <object name="carousel" remove="true" />
+    <object name="faceted.configure" remove="true" />
+  </object>
+
+  <object name="object_buttons" meta_type="CMF Action Category">
+    <object name="faceted.disable" remove="true" />
+    <object name="faceted.enable" remove="true" />
+    <object name="faceted.search.disable" remove="true" />
+    <object name="faceted.search.enable" remove="true" />
+  </object>
+
+</object>

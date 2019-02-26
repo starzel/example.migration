@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_catalog" meta_type="Plone Catalog Tool">
+
+ <index name="isEnabled" remove="true" />
+ <index name="getTimePeriod" remove="true" />
+ <index name="getRelatedLink" remove="true" />
+
+ <column value="getTimePeriod" remove="True"/>
+ <column value="getRelatedLink" remove="True"/>
+
+</object>
